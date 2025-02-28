@@ -1,17 +1,31 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from history_ai import history_gemini
 import google.generativeai as genai
 from dotenv import dotenv_values
 import datetime
 
 app = FastAPI()
+allowed_origins = [
+    "https://quantum-dev-xi.vercel.app/",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.get("/")
+async def root():
+    return {"message": "CORS is enabled!"}
 
 getenv = dotenv_values(".env")
 history = history_gemini.memory
 
 GEMINI_API_KEY=getenv.get('GEMINI_API_KEY')
-current_time = datetime.datetime.now().strftime("%H:%M")
-current_date = datetime.datetime.now().strftime("%d %B %Y, %A")
 
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found in environment variables!")
@@ -19,6 +33,8 @@ if not GEMINI_API_KEY:
 @app.get("/query")
 def deva_chat(request):
     user_input = request    
+    current_time = datetime.datetime.now().strftime("%H:%M")
+    current_date = datetime.datetime.now().strftime("%d %B %Y, %A")
     if not user_input:
         return {"error": "Message cannot be empty"}
     
