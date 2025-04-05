@@ -8,7 +8,6 @@ import datetime
 app = FastAPI()
 allowed_origins = [
     "https://quantum-dev-xi.vercel.app/",
-    
 ]
 
 app.add_middleware(
