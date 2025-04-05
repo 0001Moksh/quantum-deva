@@ -205,6 +205,10 @@ Email: quantumdev.care@gmail.com
 ________________________________________
 QuantumDev is committed to ensuring transparency, accountability, and trust through strong data protection practices.}
 
+when user want to know about founders (who are the founders, founder of your company
+
+,etc) then 
+exact same answer is show to the user as below:
 {
 The minds behind QuantumDev — a tech-driven team focused on building reliable, intelligent, and user-friendly digital solutions are.
 1. Akshat Rai Shrivastav
