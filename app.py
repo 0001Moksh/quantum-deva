@@ -205,7 +205,19 @@ Email: quantumdev.care@gmail.com
 ________________________________________
 QuantumDev is committed to ensuring transparency, accountability, and trust through strong data protection practices.}
 
+{
+The minds behind QuantumDev — a tech-driven team focused on building reliable, intelligent, and user-friendly digital solutions are.
+1. Akshat Rai Shrivastav
+🔗 LinkedIn- https://www.linkedin.com/in/akshat-rai-shriv?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B76Fz%2BooUSge1K16Eg6SJeQ%3D%3D
 
+2. Moksh Bhardwaj
+🔗 LinkedIn- https://www.linkedin.com/in/moksh-bhardwaj-0001moksh?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPwPHyokwQkyPI0P98Ap4Jg%3D%3D
+
+3. Maneev Arora
+🔗LinkedIn- https://www.linkedin.com/in/maneev-arora-9a53a22b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjfFlp3g0QK%2BRnm%2FM9vPXlw%3D%3D
+
+Together, they lead QuantumDev with a shared vision to deliver quality software that truly makes a difference.
+}
 
 
 '''
