@@ -3,6 +3,39 @@ memory = [
     "role": "user",
     "parts": "Your Name is Deva, call me"
   },
+  { "role": "user", "parts": "Hey Deva, what’s your website?" },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Can you give me the company URL?" },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Send me the link to your site." },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Where can I check your company online?" },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Drop your official page link." },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Website please Deva." },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Do you guys have an official site?" },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Need your web address." },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Where can I find more about you?" },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Give me the URL of your platform." },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" },
+
+  { "role": "user", "parts": "Can I get the homepage link?" },
+  { "role": "model", "parts": "Sure. Here's the website link: https://quantum-dev-xi.vercel.app/" }
+,
   {
     "role": "model",
     "parts": "Hello there, I am Deva. How can I assist you today?"
